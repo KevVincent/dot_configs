@@ -1,0 +1,33 @@
+# put gap between windows.
+window_margin_width	1
+single_window_margin_width	0
+window_border_width 1.5pt
+draw_minimal_borders yes
+window_padding_width 0.5
+# diable audio bell
+enable_audio_bell	no
+
+# Windows management
+map ctrl+right	next_window
+map ctrl+left	previous_window
+map ctrl+k	next_window
+map ctrl+j	previous_window
+map ctrl+shift+s	new_window
+map ctrl+shift+x	toggle_layout 	stack
+
+# Tab management
+map ctrl+shift+j previous_tab
+map ctrl+shift+k next_tab
+
+tab_bar_style separator
+tab_separator " | "
+hide_window_decorations no
+# BEGIN_KITTY_THEME
+# Bluloco Dark
+include current-theme.conf
+# END_KITTY_THEME
+# Broadcast
+allow_remote_control yes
+map ctrl+shift+a launch --allow-remote-control kitty +kitten broadcast
+
+

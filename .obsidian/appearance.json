@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Pisum",
+  "accentColor": "#2f3256",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "fix_list_indent"
+  ],
+  "baseFontSize": 25,
+  "baseFontSizeAction": true,
+  "showViewHeader": false,
+  "showRibbon": true,
+  "nativeMenus": false
+}
