@@ -1,0 +1,101 @@
+model = "gpt-5.4-mini"
+model_reasoning_effort = "low"
+sandbox_mode = "danger-full-access"
+network_access = true
+approval_policy = "never"
+service_tier = "fast"
+
+[projects."/home/kv26qzx/navvis_map_test"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-slam"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-workspace-manager"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/nwm_test_ws/map-slam"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-system-tests"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-3rdparty-hesai-sdk-2.0"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-mapper"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-processing-pipeline"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-ros-shared"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/personal/just_start"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-mapper/src/map_explorer"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-system-tests-testdata"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-docker-tools"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_test/map-slam"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_data/test_data/map-application-tests-testdata"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_test/map-cartographer"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-cartographer"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_test/map-system-tests"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_test/map-processing-pipeline"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_test/map-mapper"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-calibration-files"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_data/test_data/map-slam-eval-testdata"]
+trust_level = "trusted"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+
+[mcp_servers.code-review-graph]
+command = "code-review-graph"
+args = ["serve"]
+
+[mcp_servers.jira]
+url = "https://mcp.atlassian.com/v1/mcp/authv2"
+
+[mcp_servers.notebooklm]
+command = "npx"
+args = ["notebooklm-mcp@latest"]
+
+[marketplaces.claude-code-plugins]
+last_updated = "2026-06-10T07:32:28Z"
+last_revision = "1c5f951a48934b8bb27532ac54b7f877fed3de12"
+source_type = "git"
+source = "https://github.com/anthropics/claude-code.git"
+
+[notice]
+fast_default_opt_out = true

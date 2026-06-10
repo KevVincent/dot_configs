@@ -1,0 +1,41 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+HISTCONTROL=ignoreboth
+shopt -s histappend
+HISTSIZE=1000
+HISTFILESIZE=2000
+shopt -s checkwinsize
+
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+if [ -f "$HOME/dot_configs/.bash_aliases" ]; then
+    . "$HOME/dot_configs/.bash_aliases"
+fi
+
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+if [ -t 1 ] && [ -z "${NO_AUTO_ZSH:-}" ] && [ -z "$ZSH_VERSION" ] \
+    && [ "${#BASH_SOURCE[@]}" -eq 1 ] && command -v zsh >/dev/null 2>&1; then
+    exec zsh
+fi
+
+[[ -f "$HOME/.config/secrets/openai.env" ]] && . "$HOME/.config/secrets/openai.env"

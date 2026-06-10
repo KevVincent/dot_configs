@@ -1,0 +1,15 @@
+if [ -n "$BASH_VERSION" ] && [ -f "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+fi
+
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+if [ -t 1 ] && [ -z "${NO_AUTO_ZSH:-}" ] && command -v zsh >/dev/null 2>&1; then
+  exec zsh
+fi

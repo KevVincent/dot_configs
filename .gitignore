@@ -1,0 +1,29 @@
+# Secrets and runtime state
+.claude/.credentials.json
+.claude/history.jsonl
+.claude/backups/
+.claude/cache/
+.claude/context-mode/
+.claude/file-history/
+.claude/ide/
+.claude/mcp-needs-auth-cache.json
+.claude/paste-cache/
+.claude/.last-cleanup
+.claude/.last-update-result.json
+.claude/.caveman-active
+
+.codex/auth.json
+.codex/history.jsonl
+.codex/*.sqlite
+.codex/*.sqlite-shm
+.codex/*.sqlite-wal
+.codex/cache/
+.codex/tmp/
+.codex/shell_snapshots/
+.codex/archived_sessions/
+.codex/models_cache.json
+
+# Local machine noise
+.DS_Store
+*.swp
+*.swo
