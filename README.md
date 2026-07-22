@@ -10,6 +10,7 @@ Portable copies of my shell, editor, terminal, and AI-assistant configs.
 - `tmux/` - tmux config
 - `claude/` - Claude Code config and instructions
 - `codex/` - Codex config and rules
+- `brave/` - Brave bookmarks snapshot and restore instructions
 
 ## Current versions
 

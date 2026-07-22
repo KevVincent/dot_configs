@@ -1,0 +1,309 @@
+{
+   "checksum": "7b01e24bf496dd010447cbc26109ef40",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13417005435169371",
+            "date_last_used": "13429121187224042",
+            "guid": "b8874ccf-efa9-4adb-8c24-86555504b1e5",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SprintBoard",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/jira/software/c/projects/MAP/boards/105?visitedUserSeg=true"
+         }, {
+            "date_added": "13417003945181167",
+            "date_last_used": "13428486177574227",
+            "guid": "26e74121-b7f3-469d-99b6-bfe8bf471124",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Welcome Guide - Your First NavVis Page - People - Confluence",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/PPL/pages/349049109/Welcome+Guide+-+Your+First+NavVis+Page"
+         }, {
+            "date_added": "13417005540235888",
+            "date_last_used": "13418141843811803",
+            "guid": "4b693afc-c8d8-43a8-b243-70da96b713a4",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Products",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/KB/overview"
+         }, {
+            "date_added": "13417017767315538",
+            "date_last_used": "13420192111536295",
+            "guid": "075b1bb0-c524-4d6a-80f8-ab001f5b12e0",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "IVION workshop",
+            "type": "url",
+            "url": "https://academy-employees.navvis.com/paths/67e658a61b4e5be42da0f6bb/home"
+         }, {
+            "date_added": "13417018687555465",
+            "date_last_used": "13428063710143272",
+            "guid": "1ea3f70e-7bdb-47e2-b1d3-9e3c3118b0aa",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis Employees Academy",
+            "type": "url",
+            "url": "https://academy-employees.navvis.com/home/content/all"
+         }, {
+            "date_added": "13417019507824926",
+            "date_last_used": "13428068469664129",
+            "guid": "dd3e23e6-fe7b-469f-81e5-eefd6ab95927",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis Growth",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/PPL/pages/1388511233/Leadership+Programs+NavVis"
+         }, {
+            "date_added": "13417020009303105",
+            "date_last_used": "13422663894048340",
+            "guid": "96b3aa02-1933-40af-b407-263d78d2aeb6",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "PDP: Personal Development Plan - People - Confluence",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/PPL/pages/1839693827/PDP+Personal+Development+Plan"
+         }, {
+            "date_added": "13417020105854932",
+            "date_last_used": "13425401196805893",
+            "guid": "db1629ab-3fe8-404e-a905-42b10d8e9e49",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis University - People - Confluence",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/PPL/pages/886702428/NavVis+University#%F0%9F%97%93%EF%B8%8F-Upcoming-events"
+         }, {
+            "date_added": "13417088333300625",
+            "date_last_used": "0",
+            "guid": "b62b3865-6239-471e-ad09-36828b84c0a9",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis Shopping",
+            "type": "url",
+            "url": "https://navvis.mitarbeiterangebote.de/"
+         }, {
+            "date_added": "13417088374156953",
+            "date_last_used": "13420046033352732",
+            "guid": "e00e6bcc-e3ad-4bcd-9b99-be7c594477e7",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis ITSD",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/servicedesk/customer/portal/3/group/1126"
+         }, {
+            "date_added": "13417171172849609",
+            "date_last_used": "13429100590929865",
+            "guid": "37a79905-9d87-4398-9bf1-ea2a00eb1f62",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis Device Manager",
+            "type": "url",
+            "url": "https://map-device-manager.navvis.com/"
+         }, {
+            "date_added": "13417171545935197",
+            "date_last_used": "0",
+            "guid": "b5c8511e-fe4d-4e76-9e2c-82a49b84947d",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "IT Bookings",
+            "type": "url",
+            "url": "https://outlook.office.com/book/ITinOffice@navvis.com/?ismsaljsauthenabled=true"
+         }, {
+            "date_added": "13417545303493855",
+            "date_last_used": "13422623528069479",
+            "guid": "3e4b217b-2038-4cfd-88d5-0a236b5b4674",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MAP Confluence",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/MAP/overview"
+         }, {
+            "date_added": "13417548640191367",
+            "date_last_used": "0",
+            "guid": "89baa8fd-5c81-4a6d-8ec9-f2ae424ae4a3",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "FAQ - Mapping and Perception - Confluence",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/MAP/pages/334011032/FAQ"
+         }, {
+            "date_added": "13417612704095194",
+            "date_last_used": "13417779259997530",
+            "guid": "fd8695e0-c0b8-465f-9c02-c67e75701fca",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "NavVis Internal",
+            "type": "url",
+            "url": "https://github.com/NavVis-Internal"
+         }, {
+            "date_added": "13417633587032521",
+            "date_last_used": "0",
+            "guid": "723ae725-e08d-4b12-93de-0cb380b3fbbc",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/~7120202badd2976110454ca38d1590a234feb0/pages/edit-v2/2833612922"
+         }, {
+            "date_added": "13417612712135894",
+            "date_last_used": "13423132052144531",
+            "guid": "1cc0fa56-9919-4515-b130-ba084f6f33e1",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TestData",
+            "type": "url",
+            "url": "https://bitbucket.org/navvis/workspace/repositories/"
+         }, {
+            "date_added": "13417788649443212",
+            "date_last_used": "13423081955973114",
+            "guid": "7963d2d0-4acc-47ef-a491-694aff5b7f12",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TC",
+            "type": "url",
+            "url": "https://build.navvis.com/project/Mapping?mode=builds#all-projects"
+         }, {
+            "date_added": "13418150776483312",
+            "date_last_used": "13422631571561270",
+            "guid": "30fcce2f-2d6d-4077-992d-38b2963d0048",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SLAM output",
+            "type": "url",
+            "url": "https://navvis.atlassian.net/wiki/spaces/MAP/pages/334040750/Files+created+by+SLAM+and+trajectory+optimization"
+         }, {
+            "date_added": "13422463066087838",
+            "date_last_used": "0",
+            "guid": "1681f53b-f28d-437a-b7c8-ca3f89ff4642",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "introduction to algorithms - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?q=introduction+to+algorithms&oq=introduction+to+algorithms+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQLhiRAhiABBiKBTINCAIQLhiRAhiABBiKBTIMCAMQABhDGIAEGIoFMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMg0IBxAAGJECGIAEGIoFMgcICBAAGIAEMgYICRAuGEDSAQg2NjA4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13425217109339117",
+            "date_last_used": "0",
+            "guid": "3d149cd9-2166-4e70-97a4-324593878314",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Denmark",
+            "type": "url",
+            "url": "https://blanket.familieretshuset.dk/familieretshuset/Task/Edit/1728323"
+         }, {
+            "date_added": "13425482925011631",
+            "date_last_used": "13425484192638406",
+            "guid": "29fda240-e91b-46f1-8818-0bc5f50be827",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "dev-ppaas-data-storage - S3 bucket | S3 | eu-central-1",
+            "type": "url",
+            "url": "https://eu-central-1.console.aws.amazon.com/s3/buckets/dev-ppaas-data-storage?region=eu-central-1&tab=objects"
+         }, {
+            "date_added": "13427883262680491",
+            "date_last_used": "0",
+            "guid": "62e3f1bf-3fc6-4bbf-a8fd-9b9a306fe4f8",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Julia Evans",
+            "type": "url",
+            "url": "https://jvns.ca/"
+         }, {
+            "children": [ {
+               "date_added": "13428503673997310",
+               "date_last_used": "0",
+               "guid": "1e75ba70-90bc-43c5-9b48-dc2b5a31af6a",
+               "id": "43",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "8 Understanding the Basic Syntax of a Protobuf File · Santekno.com | Level Up Your Engineering Skills",
+               "type": "url",
+               "url": "https://www.santekno.com/en/8-understanding-the-basic-syntax-of-a-protobuf-file/"
+            } ],
+            "date_added": "13428503645475243",
+            "date_last_used": "0",
+            "date_modified": "13428503678256771",
+            "guid": "88d9c111-d61b-4bdf-8e1d-b3074a322ca6",
+            "id": "42",
+            "name": "CodingGuides",
+            "type": "folder"
+         } ],
+         "date_added": "13416998239950557",
+         "date_last_used": "0",
+         "date_modified": "13428503673997310",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13416998239950557",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13416998239950557",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
