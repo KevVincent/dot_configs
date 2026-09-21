@@ -1,0 +1,80 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
+      "Bash(git branch:*)",
+      "Bash(git merge-base:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(gh pr view:*)",
+      "Bash(dot -Tpdf hesai_flowchart.dot -o hesai_flowchart.pdf)",
+      "mcp__plugin_context-mode_context-mode__ctx_search",
+      "mcp__plugin_context-mode_context-mode__ctx_execute_file",
+      "Bash(nwm build *)",
+      "Read(//opt/NavVis/workspace-manager/bin/**)",
+      "Read(//opt/NavVis/workspace-manager/**)",
+      "Read(//home/kv26qzx/snap/code/234/.local/share/Trash/files/**)",
+      "Bash(git stash *)",
+      "Bash(git pull *)",
+      "mcp__plugin_context-mode_context-mode__ctx_execute",
+      "Read(//home/kv26qzx/**)",
+      "Bash(rosbag info *)",
+      "Bash(python3 -c ' *)"
+    ],
+    "defaultMode": "bypassPermissions",
+    "additionalDirectories": [
+      "/home/kv26qzx/navvis_map_ws"
+    ]
+  },
+  "model": "opus[1m]",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "mcp__plugin_context-mode_context-mode__ctx_stats",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/home/kv26qzx/.claude/ctx-stats-hook.sh\""
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"/home/kv26qzx/.claude/statusline-command.sh\""
+  },
+  "enabledPlugins": {
+    "commit-commands@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": true,
+    "context-mode@context-mode": true,
+    "clangd-lsp@claude-plugins-official": true,
+    "lua-lsp@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-code"
+      }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    }
+  },
+  "spinnerTipsOverride": {
+    "excludeDefault": false,
+    "tips": [
+      "💡 Run /context-mode:ctx-stats to see token usage and context savings",
+      "💡 Context-mode is optimizing your context window automatically",
+      "💡 Use /context-mode:ctx-insight for detailed analytics dashboard"
+    ]
+  },
+  "tui": "fullscreen",
+  "theme": "light",
+  "skipDangerousModePermissionPrompt": true
+}

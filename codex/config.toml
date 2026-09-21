@@ -1,5 +1,5 @@
-model = "gpt-5.4-mini"
-model_reasoning_effort = "low"
+model = "gpt-5.6-luna"
+model_reasoning_effort = "medium"
 sandbox_mode = "danger-full-access"
 network_access = true
 approval_policy = "never"
@@ -77,12 +77,61 @@ trust_level = "trusted"
 [projects."/home/kv26qzx/navvis_data/test_data/map-slam-eval-testdata"]
 trust_level = "trusted"
 
+[projects."/home/kv26qzx/navvis_map_test/map-3rdparty-hesai-sdk-2.0"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-snake-slam"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-rviz"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-rockchip-builder"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_data/map-slam-eval-testdata"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-cloud-ppaas-monitoring"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-dev-tools"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/Downloads"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_data/2026-07-27_14.09.13_feature"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_data/mlx"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-cloud-taskrunner-jobs"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-calibration"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-3rdparty-livox-ros-driver-2"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-mappy"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/navvis_map_ws/map-device-provisioning"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/Desktop"]
+trust_level = "trusted"
+
+[projects."/home/kv26qzx/personal"]
+trust_level = "trusted"
+
 [tui.model_availability_nux]
 "gpt-5.5" = 4
-
-[mcp_servers.code-review-graph]
-command = "code-review-graph"
-args = ["serve"]
+"gpt-5.6-sol" = 4
+gpt-6-astra = 4
 
 [mcp_servers.jira]
 url = "https://mcp.atlassian.com/v1/mcp/authv2"
@@ -92,10 +141,13 @@ command = "npx"
 args = ["notebooklm-mcp@latest"]
 
 [marketplaces.claude-code-plugins]
-last_updated = "2026-06-10T07:32:28Z"
-last_revision = "1c5f951a48934b8bb27532ac54b7f877fed3de12"
+last_updated = "2026-08-21T08:01:11Z"
+last_revision = "8a8e81d098cbd0fae4ee5b9c853542945fe87016"
 source_type = "git"
 source = "https://github.com/anthropics/claude-code.git"
 
 [notice]
 fast_default_opt_out = true
+
+[notice.model_migrations]
+"gpt-5.4-mini" = "gpt-5.6-luna"
