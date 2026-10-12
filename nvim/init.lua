@@ -157,6 +157,7 @@ vim.api.nvim_create_autocmd('FileType', {
   group = vim.api.nvim_create_augroup('codex-output-jump', { clear = true }),
   pattern = 'codex',
   callback = function(event)
+    vim.bo[event.buf].scrollback = 100000
     vim.keymap.set('n', 'gF', jump_to_file_line_from_output, { buffer = event.buf, desc = 'Open Codex path:line target' })
   end,
 })
@@ -1266,7 +1267,7 @@ require('lazy').setup({
       {
         '<leader>cö',
         function()
-          open_codex_with_cmd { 'codex', 'resume', '--last' }
+          open_codex_with_cmd { vim.fn.expand '~/.local/bin/codex-terminal', 'resume', '--last' }
         end,
         desc = 'Resume last Codex session',
         mode = { 'n', 't' },
@@ -1274,7 +1275,7 @@ require('lazy').setup({
       {
         '<leader>cp',
         function()
-          open_codex_with_cmd { 'codex', 'resume' }
+          open_codex_with_cmd { vim.fn.expand '~/.local/bin/codex-terminal', 'resume' }
         end,
         desc = 'Open Codex session picker',
         mode = { 'n', 't' },
@@ -1288,7 +1289,7 @@ require('lazy').setup({
       border = 'rounded',
       width = 0.8,
       height = 0.8,
-      cmd = { 'codex' },
+      cmd = { vim.fn.expand '~/.local/bin/codex-terminal' },
       model = nil,
       autoinstall = true,
       panel = false,
